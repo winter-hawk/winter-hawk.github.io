@@ -1,4 +1,9 @@
 h1 {
   font-size: 36px;
   color: #33485e;
+  font-family: 'Abril Fatface', cursive;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
 }
