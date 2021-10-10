@@ -33,13 +33,48 @@ h6 {
 }
 
 #color-palette {
-  background: white;
-  border: 2px solid black;
+  background-color: white;
+  border-style:: 2px solid black;
   padding: 10px;
 }
 
-.color{
+.color {
   height: 150;
   width: 150;
+  display: inline-block;
+}
+
+.color-1 {
+  background-color: #FFBBAD;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+}
+
+.color-2 {
+  background-color: #FACFC6;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+}
+
+.color-3 {
+  background-color: #F8EDEB;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+}
+
+.color-4 {
+  background-color: #F8D3B5;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+}
+
+.color-5 {
+  background-color: #FEB372;
+  height: 150px;
+  width: 150px;
   display: inline-block;
 }
