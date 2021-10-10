@@ -4,7 +4,7 @@ h1 {
   font-family: 'Abril Fatface', cursive;
 }
 
-p {
+.p {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -28,6 +28,6 @@ h6 {
   font-family: 'Abril Fatface', cursive;
 }
 
-li {
+.li {
   font-family: 'Source Sans Pro', sans-serif;
 }
