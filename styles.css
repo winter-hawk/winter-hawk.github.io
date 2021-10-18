@@ -78,3 +78,14 @@ h6 {
   width: 150px;
   display: inline-block;
 }
+
+img {
+	max-height: 400px;
+	margin-top: 15px;
+  width: 100%
+}
+
+
+@media screen and ( max-width: auto ) {
+img.responsive{ height: 200px; }
+}
