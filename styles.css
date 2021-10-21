@@ -7,12 +7,19 @@
 
 h1 {
   font-size: 36px;
-  color: #33485e;
+  color: black;
   font-family: 'Abril Fatface', cursive;
 }
 
 .p {
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+}
+
+.box {
+  background-color: #F8D3B5;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 h2 {
