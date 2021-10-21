@@ -41,6 +41,8 @@ h2 {
 
 h3 {
   font-family: 'Abril Fatface', cursive;
+  font-size: 24px;
+  text-decoration: underline;
 }
 
 h4 {
@@ -57,6 +59,7 @@ h6 {
 
 .li {
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
 }
 
 #color-palette {
@@ -119,6 +122,23 @@ img {
 
 @media screen and ( max-width: 100px ) {
 img.responsive{ height: 200px; }
+}
+
+.aboutpic {
+  float: left;
+  padding: 15px;
+}
+
+.abouttext {
+  padding: 20px;
+}
+
+.block1 {
+  float:left;
+}
+
+.block2 {
+  float: right;
 }
 
 .footer {
