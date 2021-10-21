@@ -81,6 +81,11 @@ h6 {
 
 img {
 	max-height: 400px;
+  margin-top: 15px;
+}
+
+.banner {
+  max-height: 400px;
 	margin-top: 15px;
   width: 100%
 }
