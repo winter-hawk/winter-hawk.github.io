@@ -95,9 +95,10 @@ img.responsive{ height: 200px; }
 }
 
 .footer {
-  position: fixed;
+  position: inherit;
   left: 0;
   bottom: 0;
+  height: 50px;
   width: 100%;
   background-color: #FACFC6;
   color: white;
