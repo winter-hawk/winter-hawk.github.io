@@ -90,7 +90,33 @@ img {
   width: 100%
 }
 
-
 @media screen and ( max-width: 100px ) {
 img.responsive{ height: 200px; }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FACFC6;
+  color: white;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 25px;
+}
+
+.socials {
+  text-align: right;
+  padding-right: 25px;
+}
+
+.separator {
+    height: 4px;
+    display: inline-block;
+    border-left: 1px solid #999;
+    margin: -2px 0px;
+    padding-bottom: 10px;
 }
