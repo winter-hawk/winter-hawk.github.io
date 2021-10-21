@@ -3,23 +3,30 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  list-style-type: none;
+  padding: 10px;
 }
 
 h1 {
   font-size: 36px;
   color: black;
   font-family: 'Abril Fatface', cursive;
+  text-align: center;
 }
 
 .p {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .box {
   background-color: #F8D3B5;
   margin-left: 150px;
   margin-right: 150px;
+  text-align: center;
+}
+
+.resumeintro {
   text-align: center;
 }
 
@@ -37,6 +44,7 @@ h1 {
 
 h2 {
   font-family: 'Abril Fatface', cursive;
+  text-align: center;
 }
 
 h3 {
@@ -57,9 +65,36 @@ h6 {
   font-family: 'Abril Fatface', cursive;
 }
 
+.headlines {
+  float: left;
+}
+
+.date {
+  float: right;
+}
+
 .li {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
+  list-style-type: none;
+}
+
+#intro {
+
+}
+
+#experience {
+
+}
+
+#education {
+
+}
+
+.experience {
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 2px;
 }
 
 #color-palette {
@@ -133,11 +168,11 @@ img.responsive{ height: 200px; }
   padding: 20px;
 }
 
-.block1 {
+.skills {
   float:left;
 }
 
-.block2 {
+.achievements {
   float: right;
 }
 
