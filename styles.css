@@ -186,6 +186,10 @@ img.responsive{ height: 200px; }
   color: white;
 }
 
+.contentwrapper {
+  margin-bottom: 50px;
+}
+
 .copyright {
   text-align: left;
   padding-left: 25px;
