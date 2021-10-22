@@ -159,6 +159,25 @@ img {
 img.responsive{ height: 200px; }
 }
 
+.navbar-flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-flex-container ul li {
+    padding-right: 6px;
+}
+
+.navbar-flex-container ul li::after {
+    content: ' | ';
+    padding-left: 6px;
+}
+
+.navbar-flex-container ul li:last-of-type:after {
+    content: '';
+}
+
+
 .aboutpic {
   float: left;
   padding: 15px;
