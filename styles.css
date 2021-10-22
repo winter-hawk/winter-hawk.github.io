@@ -1,4 +1,4 @@
-.ul {
+ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -14,7 +14,7 @@ h1 {
   text-align: center;
 }
 
-.p {
+p {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 22px;
 }
@@ -73,13 +73,13 @@ h6 {
   float: right;
 }
 
-.li {
+li {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
   list-style-type: none;
 }
 
-#intro {
+/* #intro {
 
 }
 
@@ -89,7 +89,7 @@ h6 {
 
 #education {
 
-}
+} */
 
 .experience {
   text-align: left;
@@ -99,7 +99,7 @@ h6 {
 
 #color-palette {
   background-color: white;
-  border-style:: 2px solid black;
+  border-style: 2px solid black;
   padding: 10px;
 }
 
@@ -176,11 +176,15 @@ img.responsive{ height: 200px; }
   float: right;
 }
 
+.contentwrapper {
+    display: block;
+}
+
 .footer {
-  position: fixed;
+  /* position: fixed;
   left: 0;
-  bottom: 0;
-  height: 50px;
+  bottom: 0; */
+  /* height: 50px; */
   width: 100%;
   background-color: #FACFC6;
   color: white;
@@ -203,3 +207,9 @@ img.responsive{ height: 200px; }
     margin: -2px 0px;
     padding-bottom: 10px;
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
