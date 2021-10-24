@@ -17,7 +17,7 @@ h1 {
 
 p {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .box {
@@ -32,9 +32,15 @@ p {
 }
 
 .gallery {
-  margin: 5px;
+  margin: 5px 200px;
   float: left;
-  width: 180px;
+  width: 600px;
+  height: auto;
+}
+.galleryA {
+  margin: 5px -150px;
+  float: left;
+  width: 600px;
   height: auto;
 }
 
@@ -118,7 +124,8 @@ img {
 .banner {
   max-height: 400px;
 	margin-top: 15px;
-  width: 100%
+  width: 100%;
+  border: #FACFC6 solid 1px;
 }
 
 @media screen and ( max-width: 100px ) {
