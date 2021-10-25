@@ -223,6 +223,7 @@ img.responsive { height: 200px; }
     flex: 100%;
     max-width: 100%;
   }
+  
 .separator {
     height: 4px;
     display: inline-block;
