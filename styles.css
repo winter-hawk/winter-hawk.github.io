@@ -71,10 +71,12 @@ h6 {
 
 .headlines {
   float: left;
+  margin-left: 25px;
 }
 
 .date {
   float: right;
+  margin-right: 25px;
 }
 
 .li {
