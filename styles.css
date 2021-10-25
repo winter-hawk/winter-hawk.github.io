@@ -7,6 +7,15 @@ ul {
   padding: 10px;
   text-align: center;
 }
+zr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+}
 div{
   overflow: hidden
 }
