@@ -7,7 +7,12 @@ ul {
   padding: 10px;
   text-align: center;
 }
-
+div{
+  overflow: hidden
+}
+a{
+  width: 100%;
+}
 h1 {
   font-size: 36px;
   color: black;
@@ -32,20 +37,12 @@ p {
 }
 
 .gallery {
-  margin: 5px 200px;
+  margin: 5px auto 0px 150px;
   float: left;
-  width: 600px;
-  height: auto;
-}
-.galleryA {
-  margin: 5px -150px;
-  float: left;
-  width: 600px;
-  height: auto;
-}
-
-.gallery img {
   width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  min-height: 500px;
   height: auto;
 }
 
@@ -110,12 +107,6 @@ h6 {
   padding-bottom: 2px;
 }
 
-#color-palette {
-  background-color: white;
-  border-style:: 2px solid black;
-  padding: 10px;
-}
-
 img {
 	max-height: 400px;
   margin-top: 15px;
@@ -141,13 +132,15 @@ img.responsive{ height: 200px; }
   padding: 20px;
 }
 
-.skills {
-  float:left;
+.container-about {
+  display: inline-block;
 }
 
-.achievements {
-  float: right;
+.skills {
+  float:right;
 }
+
+
 
 .footer {
   position: fixed;
@@ -172,7 +165,50 @@ img.responsive{ height: 200px; }
   text-align: right;
   padding-right: 25px;
 }
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
 
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  text-align: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 100%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 2000px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
 .separator {
     height: 4px;
     display: inline-block;
