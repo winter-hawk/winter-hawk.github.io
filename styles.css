@@ -7,7 +7,7 @@ ul {
   padding: 10px;
   text-align: center;
 }
-zr {
+b {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -89,7 +89,7 @@ h6 {
   margin-right: 25px;
 }
 
-.li {
+li {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
   list-style-type: none;
