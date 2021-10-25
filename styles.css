@@ -17,7 +17,7 @@ b {
   text-align: center;
 }
 div{
-  overflow: hidden
+  overflow: hidden;
 }
 a{
   width: 100%;
@@ -132,7 +132,7 @@ img {
 }
 
 @media screen and ( max-width: 100px ) {
-img.responsive{ height: 200px; }
+img.responsive { height: 200px; }
 }
 
 .aboutpic {
@@ -229,4 +229,4 @@ img.responsive{ height: 200px; }
     border-left: 1px solid #999;
     margin: -2px 0px;
     padding-bottom: 10px;
-    
+  }
