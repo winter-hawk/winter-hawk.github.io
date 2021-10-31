@@ -1,0 +1,46 @@
+img {
+  width: 100%;
+}
+
+.img-wrapper {
+  width: 90%;
+}
+
+.caption {
+  color: grey;
+  margin-top: 0px;
+  font-family: Monsserrat, sans-serif, Arial, sans-serif;
+  font-size: 12px;
+}
+
+h1 {
+  font-family: PT serif, serif, Helvetica;
+  font-size: 36px;
+}
+
+h4 {
+  font-family: PT serif, serif, Helvetica;
+  font-size: 14px;
+  font-style: bold;
+}
+
+h5 {
+  font-family: PT serif, serif, Helvetica;
+  font-size: 12px;
+  color: grey;
+}
+
+#content {
+  margin: 0px auto;
+  width: 75%;
+}
+
+body {
+  font-family: Monsserrat, sans-serif, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.interstitial {
+  text-align: center;
+  padding: 20px
+}
